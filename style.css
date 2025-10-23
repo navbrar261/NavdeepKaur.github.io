@@ -1,0 +1,198 @@
+/*I ,Navdeep Kaur, 000922874, certify that this material is my original work. No other person's work has been used without due acknowledgement. I have not made my work available to anyone else.*/
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #f9faff;
+    color: #2b2d42;
+    text-align: center;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+  }
+
+  .disclaimer-bar {
+    background-color: #e4dcff;
+    color: #3a3a3a;
+    padding: 0.8rem;
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+  
+
+  header {
+    background: linear-gradient(135deg, #2d3561, #171c3b);
+    color: white;
+    padding: 4rem 1rem 3rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+  }
+  .profile-pic {
+    width: 120px;       
+    height: 120px;
+    border-radius: 50%;  
+    object-fit: cover;   
+    display: block;
+    margin: 0 auto 1rem auto; 
+    border: 3px solid #007bff; 
+  }
+  
+  
+  .subtitle {
+    font-size: 1.1rem;
+    font-weight: 400;
+    opacity: 0.9;
+  }
+  
+  .connect {
+    margin-top: 1rem;
+  }
+  
+  .connect a {
+    color: #d0d4ff;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 0.5rem;
+  }
+  
+  .connect a:hover {
+    color: #fff;
+  }
+
+  section {
+    max-width: 900px;
+    margin: 2.5rem auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  h2 {
+    color: #4a57a3;
+    margin-bottom: 1rem;
+  }
+ 
+  .edu-item {
+    background-color: #eef0ff;
+    padding: 1rem;
+    border-left: 4px solid #9099e0;
+    border-radius: 10px;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    font-weight: 500;
+  }
+  
+  .skills-list li {
+    background-color: #f0f3ff;
+    margin: 0.5rem auto;
+    padding: 0.7rem;
+    border-radius: 8px;
+    max-width: 600px;
+  }
+  
+  
+  .project {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    background-color: #f4f6ff;
+    border-left: 4px solid #7a89e6;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(107, 127, 215, 0.3);
+  }
+  .project h3 {
+    color: #3f4d79;
+  }
+ 
+  .btn, .btn-outline {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+  .btn {
+    background-color: #6b7fd7;
+    color: white;
+  }
+  
+  .btn:hover {
+    background-color: #5466b2;
+    box-shadow: 0 4px 15px rgba(84, 102, 178, 0.4);
+    transform: translateY(-2px);
+  }
+  
+  
+  .btn-outline {
+    border: 2px solid #6b7fd7;
+    color: #6b7fd7;
+  }
+  
+  .btn-outline:hover {
+    background-color: #6b7fd7;
+    color: white;
+  }
+  
+  .connect a {
+    color: #d0d4ff;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 0.5rem;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .connect a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #ffffff;
+    transition: width 0.3s;
+  }
+  
+  .connect a:hover {
+    color: #fff;
+  }
+  
+  .connect a:hover::after {
+    width: 100%;
+  }
+  #contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contact li {
+    margin-bottom: 0.6rem;
+  }
+  
+  
+  footer {
+    background-color: #171c3b;
+    color: white;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+  }
+ 
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  }
+  
